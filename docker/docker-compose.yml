@@ -85,8 +85,8 @@ services:
         links:
             - nginx
         environment:
-            - DOMAINS=demo.micro.raiden.network wikidemo.micro.raiden.network
-            - EMAIL=info@brainbot.com
+            - DOMAINS=demo.log4analytics.com wikidemo.log4analytics.com
+            - EMAIL=ming@log4analytics.com
             - WEBROOT_PATH=/tmp/letsencrypt
             - EXP_LIMIT=30
             - CHECK_FREQ=1
